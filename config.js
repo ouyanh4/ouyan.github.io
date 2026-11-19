@@ -209,6 +209,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/ouyanh4/REPO"
+    repoUrl: "https://github.com/ouyan/REPO"
   }
 };
