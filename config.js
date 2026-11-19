@@ -58,7 +58,7 @@ window.SITE_CONFIG = {
 
   intro: {
     projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitle: "Traffic Analysis at Steeles Avenue West and Keele Street Using SUMO",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
@@ -71,26 +71,25 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Steeles Avenue West and Keele Street is a busy intersection in Vaughan, Ontario.",
+			"Traffic congestion causes delays and long waiting times.",
+			"SUMO software is used to simulate traffic conditions.",
+			"Compare human-driven vehicles (HDVs) and autonomous vehicles (AVs)."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"A digital traffic model is needed to study the intersection.",
+			"Traffic congestion causes low speeds and long queues.",
+			"The impact of autonomous vehicles (AVs) on traffic flow is unclear.",
+			"The effect of changing traffic light timing has not been tested."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Develop a SUMO traffic model and analyze human-driven vehicles (HDVs).",
+			"Compare traffic flow between human-driven vehicles (HDVs) and autonomous vehicles (AVs).",
+			"Test changes to traffic light timing and evaluate their impact on traffic flow."
     ]
   },
 
