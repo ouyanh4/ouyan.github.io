@@ -98,22 +98,22 @@ window.SITE_CONFIG = {
     steps: [
       {
         title: "Step 1: Roadway network development and HDV baseline",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+				text: "Build the SUMO road network, set traffic demand and signal timing, and run the 100% HDV baseline.",
         image: "assets/img/image2.jpg"
       },
       {
 				title: "Step 2: CAV scenario implementation",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				text: "Run a 100% CAV simulation using different vehicle-following parameters.",
         image: "assets/img/image3.jpg"
       },
       {
 				title: "Step 3: Intervention implementation",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				text: "Change the east-west green light time from 27 to 41 seconds and run the simulation.",
         image: "assets/img/image4.jpg"
       },
       {
 				title: "Step 4: Summary of the project findings",
-				text: "Summarize results using figures, KPIs, and the showcase website.",
+				text: "Compare traffic results from all scenarios and summarize the key findings and conclusions.",
         image: "assets/img/image5.jpg"
       }
     ]
@@ -123,38 +123,38 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Roadway Network Development and HDV Baseline (SUMO)",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+				  { text: "Build a digital road network of Steeles Avenue West and Keele Street using SUMO." },
+          { text: "Set up road lanes, turning movements, and traffic light signals." },
+          { text: "Configure traffic demand and run the 100% human-driven vehicle (HDV) simulation." }
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: CAV Scenario Implementation (SUMO)",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+          { text: "Use the same road network and traffic demand as the HDV baseline." },
+          { text: "Change vehicle settings to simulate 100% connected and autonomous vehicles (CAVs)." },
+          { text: "Run the simulation and compare traffic speed and density with the HDV baseline." }
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: Intervention Implementation (SUMO)",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+				  { text: "Identify traffic congestion and long queues at the intersection." },
+          { text: "Increase the east-west green light time from 27 to 41 seconds." },
+          { text: "Run the updated SUMO simulation and compare traffic speed and density with the HDV baseline." }
         ],
         image: "assets/img/image4.jpg"
       },
       {
         title: "Module 4: Results & Communication",
         bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
+          { text: "Compare traffic speed and density across the HDV, CAV, and intervention scenarios." },
+          { text: "Present simulation results using graphs and tables to identify traffic improvements." },
+          { text: "Summarize key findings, project limitations, and recommendations for future improvements." }
         ],
         image: "assets/img/image5.jpg"
       }
