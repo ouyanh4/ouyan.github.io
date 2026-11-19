@@ -63,7 +63,7 @@ window.SITE_CONFIG = {
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "Autoplay preview (≈30 seconds): raw video → Traffic Simulation → Results"
   },
 
   caseStudy: {
@@ -164,16 +164,16 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"SUMO simulation results compare traffic speed, density, and capacity across three scenarios: 100% HDV, 100% CAV, and improved traffic signal timing. The results help identify possible improvements in traffic flow and areas for future study.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1 — Base Scenario",
 					src: "assets/img/image6.jpg",
 					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 2 — CAV Scenario",
 					src: "assets/img/image7.jpg",
 					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
 				}
@@ -181,11 +181,11 @@ window.SITE_CONFIG = {
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"HDV Baseline: Traffic speed decreases as vehicle density increases, causing congestion.",
+				"CAV Scenario: Autonomous vehicles show only a small improvement compared to HDVs.",
+				"Intervention Scenario: Increasing the east-west green light time slightly improves traffic capacity by 2.5%.",
+				"Limitations: Results are based on simulation data without real-world validation.",
+				"Future Improvements: Collect real traffic data and test more traffic light settings."
 			]
 		},
 
@@ -195,16 +195,16 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
   members: [
-      { name: "Tommy Ouyang", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" },
-      { name: "Jacob Kwan", role: "Data Collection" },
-      { name: "Nicolas Martin Jao", role: "SUMO network setup" }
+      { name: "Tommy Ouyang", role: "Traffic simulation, analysis, and results presentation" },
+      { name: "Jacob Kwan", role: "Data collection and analysis" },
+      { name: "Nicolas Martin Jao", role: "SUMO road network development" }
     ],
 
     acknowledgments: [
-      "Workshop: Railway Engineering",
-      "Institution: RoadwayVR University",
+      "Workshop: Btech Automation",
+      "Institution: McMaster University",
       "Instructor: Ahmad Mohammadi",
-      "Tools: SUMO, Blender, Unity, Python"
+      "Tools: SUMO, Python, GIS"
     ],
 
     repoLabel: "Project Repository",
