@@ -97,22 +97,22 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
+        title: "Step 1: Roadway network development and HDV baseline",
 				text: "Build the rail network and test routing, signaling, and timetables.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
+				title: "Step 2: CAV scenario implementation",
 				text: "Create a 3D railway assets using generative AI and blender.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
+				title: "Step 3: Intervention implementation",
 				text: "Create a 3D railway scene and produce a VR 360-degree video.",
         image: "assets/img/image4.jpg"
       },
       {
-				title: "Step 4: Results & Communication (Figures + Showcase Website)",
+				title: "Step 4: Summary of the project findings",
 				text: "Summarize results using figures, KPIs, and the showcase website.",
         image: "assets/img/image5.jpg"
       }
