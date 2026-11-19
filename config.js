@@ -196,7 +196,9 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Tommy Ouyang", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+		{ name: "Jacob Kwan", role: "Data Collection" }
+		{ name: "Nicolas Martin Jao", role: "SUMO network setup" }
     ],
 
     acknowledgments: [
